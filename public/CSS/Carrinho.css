@@ -1,0 +1,56 @@
+.produto{ 
+    border-bottom: 2px solid black; 
+    padding:  10px;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .produto, .row, h4, h5, h3, input,.col-1, .ipvalor{
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 2px;
+    }
+}
+
+.scroll-produto{
+    width: 100%;
+    height: 60vh;
+    overflow-y: scroll;
+    overflow-y: auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.scroll-produto::-webkit-scrollbar{
+    display: none;
+}
+/*-----Resumo-Preço--------*/
+.summary{
+    border-top: 2px solid #5ea4f3;
+    background-color: #f7fbff;
+    height: 100%;
+    padding: 30px;
+}
+
+.summary h3{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.summary .summary-item:not(:last-of-type){
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.summary .text{
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.summary .price{
+    font-size: 1em;
+    float: right;
+}

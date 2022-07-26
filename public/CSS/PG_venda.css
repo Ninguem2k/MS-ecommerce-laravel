@@ -1,0 +1,45 @@
+
+.Item {
+    height: 60px;
+    transition: .6s ease;
+}
+
+.Item:hover {
+    transform: scale(1.05);
+}
+
+.bxs-right-arrow{
+    font-size: 25px;
+    margin: 0 -20px;
+}
+
+.bxs-left-arrow{
+    font-size: 25px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background: transparent;
+}
+/*Scroll*/
+.live_scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.live_scroll .row{
+    display:block;
+}
+
+.live_scroll .card-produto {
+    display: inline-block;
+    float: none;
+}
+
+.live_scroll{
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
